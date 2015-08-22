@@ -1,0 +1,51 @@
+.btn-reg {
+    padding: 20px 40px;
+    border-color: #37ff29;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #37ff29;
+}
+
+.btn-reg:hover,
+.btn-reg:focus,
+.btn-reg:active,
+.btn-reg.active,
+.open .dropdown-toggle.btn-reg {
+    border-color: #10f500;
+    color: #fff;
+    background-color: #0fe000;
+}
+
+.btn-reg:active,
+.btn-reg.active,
+.open .dropdown-toggle.btn-reg {
+    background-image: none;
+}
+
+.btn-reg.disabled,
+.btn-reg[disabled],
+fieldset[disabled] .btn-reg,
+.btn-reg.disabled:hover,
+.btn-reg[disabled]:hover,
+fieldset[disabled] .btn-reg:hover,
+.btn-reg.disabled:focus,
+.btn-reg[disabled]:focus,
+fieldset[disabled] .btn-reg:focus,
+.btn-reg.disabled:active,
+.btn-reg[disabled]:active,
+fieldset[disabled] .btn-reg:active,
+.btn-reg.disabled.active,
+.btn-reg[disabled].active,
+fieldset[disabled] .btn-reg.active {
+    border-color: #00b800;
+    background-color: #00b800;
+}
+
+.btn-reg .badge {
+    color: #00b800;
+    background-color: #fff;
+}
